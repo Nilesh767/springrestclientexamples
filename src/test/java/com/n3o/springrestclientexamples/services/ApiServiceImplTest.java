@@ -1,7 +1,6 @@
 package com.n3o.springrestclientexamples.services;
 
-import com.n3o.springrestclientexamples.domain.User;
-import org.junit.Ignore;
+import com.n3o.api.domain.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -13,7 +12,6 @@ import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-@Ignore
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
 class ApiServiceImplTest {

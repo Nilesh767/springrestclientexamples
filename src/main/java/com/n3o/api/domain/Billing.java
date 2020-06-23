@@ -1,4 +1,4 @@
-package com.n3o.springrestclientexamples.domain;
+package com.n3o.api.domain;
 
 import lombok.Getter;
 import lombok.Setter;

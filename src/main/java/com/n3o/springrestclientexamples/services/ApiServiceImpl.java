@@ -1,7 +1,7 @@
 package com.n3o.springrestclientexamples.services;
 
-import com.n3o.springrestclientexamples.domain.User;
-import com.n3o.springrestclientexamples.domain.UserData;
+import com.n3o.api.domain.User;
+import com.n3o.api.domain.UserData;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
