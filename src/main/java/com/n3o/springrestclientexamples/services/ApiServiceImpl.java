@@ -18,7 +18,7 @@ public class ApiServiceImpl implements ApiService{
 
     @Override
     public List<User> getUsers(Integer limit) {
-        UserData userData = restTemplate.getForObject("http://apifaketory.com/api/user?limit="+ limit,UserData.class);
+        UserData userData = restTemplate.getForObject("http://private-anon-852ce83faa-apifaketory.apiary-mock.com/api/user?limit="+ limit,UserData.class);
         return userData.getData();
     }
 }
