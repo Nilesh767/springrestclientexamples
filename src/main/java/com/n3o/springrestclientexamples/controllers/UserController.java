@@ -14,7 +14,7 @@ import org.springframework.web.server.ServerWebExchange;
 @Controller
 public class UserController {
 
-    private ApiService apiService;
+    private final ApiService apiService;
 
     public UserController(ApiService apiService) {
         this.apiService = apiService;
