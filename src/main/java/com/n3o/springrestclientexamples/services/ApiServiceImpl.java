@@ -1,7 +1,7 @@
 package com.n3o.springrestclientexamples.services;
 
-import com.n3o.api.domain.User;
-import com.n3o.api.domain.UserData;
+import com.n3o.springrestclientexamples.api.domain.User;
+import com.n3o.springrestclientexamples.api.domain.UserData;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Service;

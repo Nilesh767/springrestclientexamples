@@ -1,6 +1,6 @@
 package com.n3o.springrestclientexamples.services;
 
-import com.n3o.api.domain.User;
+import com.n3o.springrestclientexamples.api.domain.User;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

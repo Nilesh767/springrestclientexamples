@@ -1,4 +1,4 @@
-package com.n3o.api.domain;
+package com.n3o.springrestclientexamples.api.domain;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,11 +9,11 @@ import java.util.Map;
 
 @Getter
 @Setter
-public class Job implements Serializable {
+public class Name implements Serializable {
 
     private String title;
-    private String company;
+    private String first;
+    private String last;
     private Map<String, Object> additionalProperties = new HashMap<>();
-    private final static long serialVersionUID = -4985150429002262656L;
-
+    private final static long serialVersionUID = 420620315591775395L;
 }

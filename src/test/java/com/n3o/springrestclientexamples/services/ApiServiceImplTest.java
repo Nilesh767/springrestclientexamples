@@ -1,6 +1,6 @@
 package com.n3o.springrestclientexamples.services;
 
-import com.n3o.api.domain.User;
+import com.n3o.springrestclientexamples.api.domain.User;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
